@@ -1,7 +1,0 @@
-ik@mail.com,Izzy Kone,2,2022-07-27T16:44:06.156,12345
-cj@mail.com,Charles Jester,18,2022-07-27T16:57:29.939,12345
-kd@mail.com,Kim Dang,2,2022-07-27T17:13:17.242,12345
-et@mail.com,Elham Tehrani,2,2022-07-27T17:18:39.869,12345
-ts@mail.com,Tanner Stanley,4,2022-07-27T17:22:25.852,12345
-kb@mail.com,Khalis Bell,4,2022-07-27T17:28:10.098,12345
-tm@mail.com,tester mctesterson,10000,2022-07-27T17:40:04.354,12345

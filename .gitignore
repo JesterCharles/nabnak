@@ -1,4 +1,5 @@
 .idea
-out
+target/
 nabnak.iml
 src/com/revature/nabnak/showAdd.java
+src/main/resources/hibernate.properties

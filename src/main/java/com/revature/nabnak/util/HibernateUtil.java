@@ -24,7 +24,10 @@ public class HibernateUtil {
             Configuration configuration = new Configuration();
             Properties properties = new Properties();
 
-            properties.load(new FileReader("src/main/resources/hibernate.properties"));
+            // Searching the thread for the file specified and streaming it into the properties.load()
+            ClassLoader loader = Thread.currentThread().getContextClassLoader();
+            properties.load(loader.getResourceAsStream("hibernate.properties"));
+//            properties.load(new FileReader("src/main/resources/hibernate.properties"));
 
             // ONE ADDITIONAL STEP I NEED TO INCLUDE
             configuration.addAnnotatedClass(Member.class);

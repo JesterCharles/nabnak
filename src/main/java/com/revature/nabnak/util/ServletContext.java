@@ -22,7 +22,9 @@ public class ServletContext {
 
 
         public final void run() {
-            // Dependency injection will remain
+            // For Elastic beanstalk deployment
+            new File("src/main/webapp/").mkdirs();
+            new File("target/classes").mkdirs();
 
             String webappDirLocation = new File("src/main/webapp/").getAbsolutePath();
             String additonalClasses = new File("target/classes").getAbsolutePath();

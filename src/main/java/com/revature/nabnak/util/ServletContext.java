@@ -45,7 +45,7 @@ public class ServletContext {
                 CardDao cardDao = new CardDao();
                 CardService cardService = new CardService(memberService, cardDao);
 
-               // tomcat.setPort(3000); // Do not change port from 8080, leave default. This is just to show you can alter the ports. BEcause certain cloud providers sometimes change their ports. they use just 80 or 8080
+                tomcat.setPort(5000); // Do not change port from 8080, leave default. This is just to show you can alter the ports. BEcause certain cloud providers sometimes change their ports. they use just 80 or 8080
 
                 // let's estbalish our MemberServlet inside of tomcat
                 // These two ADDITIONAL STEPS ARE REQUIRED OF US FOR DEPENDENCY INJECTION
